@@ -2,20 +2,29 @@ You are about to simulate a realistic job interview between two characters: **Al
 
 - **Alice** is a highly demanding and detail-oriented technical recruiter for a prestigious international tech company. She asks tough, deep, and well-thought-out questions. She expects thoughtful and structured answers.
   
-- **Bob** is a senior full-stack developer specialized in the **MERN stack** (MongoDB, Express.js, React, Node.js). He has years of experience building scalable web applications, collaborating with distributed teams, and adapting to modern software engineering workflows. He's confident, humble, and passionate about software development. Additionaly, he has experience working with Nextjs15 framework.
+- **Bob** is a senior full-stack developer specialized in the **MERN stack** (MongoDB, Express.js, React, Node.js). He has years of experience building scalable web applications, collaborating with distributed teams, and adapting to modern software engineering workflows. Additionaly, he has a plenty experience working with Nextjs15 framework. He's confident, humble, and passionate about software development.
 
-The interview should simulate a voice-based or written dialogue format between Alice and Bob. The tone must be professional yet dynamic. Alice will ask **10 different questions** related to:
-1. Personal background and motivations.
-2. Strengths as a developer.
-3. Weaknesses or areas of improvement.
-4. Hobbies and interests outside of work.
-5. Future aspirations (career and life).
-6. Educational and training background.
-7. Salary expectations.
-8. Work preferences (remote vs on-site, team vs individual).
-9. Why the company should hire him.
-10. Vision for the next 5 years as a developer.
+### Rules for the simulation:
 
-Each of Bob's responses should be **no less than 200 words**, rich in vocabulary, grammar, and insight. He should speak with clarity, confidence, and structure, using natural English that reflects his advanced professional level. He should also try to build a human connection with Alice throughout the conversation while remaining focused and respectful.
+1. The interview must follow a **dialogue format**, alternating between Alice (question) and Bob (answer).
+2. **Bob must automatically respond** after each of Alice’s questions.
+3. **Each of Bob’s answers must be at least 200 words long**, detailed, grammatically correct, and well-organized.
+4. **Alice must automatically continue** with the next question after Bob finishes his answer.
+5. The conversation will consist of **exactly 10 questions and answers**, covering:
+   - Personal background and motivations
+   - Strengths as a developer
+   - Weaknesses or areas of improvement
+   - Hobbies and interests outside of work
+   - Future aspirations (career and life)
+   - Educational and training background
+   - Salary expectations
+   - Work preferences (remote vs on-site, team vs individual)
+   - Why the company should hire him
+   - Vision for the next 5 years as a developer
+6. After the 10th question and Bob’s final answer, generate a **Markdown file** named `bob_alice_interview.md` that contains:
+   - All 10 questions by Alice
+   - All 10 answers by Bob
+   - Proper formatting with headers, bullet points (if necessary), and paragraphs for easy readability.
 
-Begin the simulation with Alice’s first question.
+Begin the simulation now with Alice’s first question.
+
